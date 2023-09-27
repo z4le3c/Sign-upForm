@@ -52,8 +52,70 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.3rem;
 }
 
 .photo-credits a {
     color:white
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(240, 240, 240);
+}
+
+.message-section {
+    padding: 1.2rem 6.4rem;
+    height: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.form-section {
+    height: 32%;
+    box-sizing: border-box;
+    padding: 0 6.4rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+.button-section {
+    box-sizing: border-box;
+    padding: 3.2rem 6.4rem;
+    height: 34%;
+}
+
+h2 {
+    font-size:2rem;
+    width: 72ch;
+    font-weight: 600;
+}
+
+.form-section .container {
+    display: flex;
+    gap: 7.6rem;
+}
+
+.first-half, 
+.second-half{
+    display: flex;
+    flex-direction: column;
+    gap:1.6rem;
+}
+
+label {
+    display: block;
+    font-size: 1.4rem;
+}
+
+input{
+    height: 2rem;
+}
+
+form {
+    width: 100%;
 }

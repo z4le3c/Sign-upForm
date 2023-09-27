@@ -26,6 +26,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+.company-name {
+    color: white;
+}
 
 .material-symbols-outlined {
     font-variation-settings:
@@ -36,4 +39,5 @@ body {
 }
 #logo{
     font-size: 10rem;
+    color:white;
 }

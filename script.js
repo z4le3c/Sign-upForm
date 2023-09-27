@@ -26,7 +26,3 @@ submitButton.addEventListener('click', () => {
         passwI1.setCustomValidity("")
     }
 });
-
-// TODO
-// add pass word responiveness
-// better validation of other inputs

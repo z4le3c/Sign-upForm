@@ -44,7 +44,7 @@
                     <div class="first-half">
                         <div class="input">
                             <label for="first-name">First Name</label>
-                            <input type="text" name="first-name" id="first-name" required>
+                            <input type="text" name="first-name" id="first-name" required minlength="3">
                         </div>
                         <div class="input">
                             <label for="email">Email</label>
@@ -52,21 +52,22 @@
                         </div>
                         <div class="input">
                             <label for="password">Password</label>
-                            <input type="password" name="password" id="password" required>
+                            <input type="password" name="password" id="password" required placeholder="p4$sWord" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                            <p>(UpperCase, LowerCase, Number/SpecialChar and min 8 Chars)</p>
                         </div>
                     </div>
                     <dic class="second-half">
                         <div class="input">
                             <label for="last-name">Last Name</label>
-                            <input type="text" name="last-name" id="last-name" required>
+                            <input type="text" name="last-name" id="last-name" required minlength="3">
                         </div>
                         <div class="input">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" name="phone" id="phone" required>
+                            <input type="tel" name="phone" id="phone" required pattern="\d{8,10}">
                         </div>
                         <div class="input">
                             <label for="confirm-passw">Confirm Password</label>
-                            <input type="password" name="confirm-passw" id="confirm-passw" required>
+                            <input type="password" name="confirm-passw" id="confirm-passw" required minlength="8">
                         </div>
                     </dic>
                 </div>

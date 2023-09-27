@@ -27,6 +27,10 @@ body {
 }
 .company-name {
     color: white;
+    font-family: 'NemoyBold';
+    font-weight: bold;
+    font-style: normal; 
+    font-size: 6rem;
 }
 
 .material-symbols-outlined {
@@ -96,7 +100,7 @@ body {
 h2 {
     font-size:2rem;
     width: 72ch;
-    font-weight: 600;
+    font-weight: 550;
 }
 
 .form-section .container {
